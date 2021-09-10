@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Fanowska strona o Realm Royale">
+        <meta name="keywords" content="Realm Royale, wiki" />
+        <meta name="author" content="Kewin Ignasiak" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        
+        <title>Runy</title>
+    </head>
+    <body onload="Start();">
+
+        <!-- Pasek Nawigacji -->
+        <nav><br />
+            <a href="index.html">STRONA GŁÓWNA</a>
+            <a href="artykul.html">PORADNIK</a>
+            <a href="runy.html">RUNY</a>
+            <a href="regulamin.html">REGULAMIN</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </nav>
+        
+        <!-- Baner -->        
+        <header>
+            <img src="" alt="Losowy baner..." id="banner" />
+            <h1>Runy</h1>
+        </header>
+       
+
+        <!-- Artykuł -->
+        <div id="content">
+            <div id="article" style="float: left; width: 45%; margin-right: 0px;">
+                <h1 id="1" style="padding-top: 100px;">Czym są runy?</h1>
+                <hr />
+                <p> 
+                    Runy są przedmoitami, które modyfikują nasze statystyki po podniesieniu. Kazdy z graczy może podnieść maksymalnie 6 run w ciągu jednej gry. Runy wypadają ze skrzynek, zrzutów oraz goblinów jednak nie wypadają z innych graczy nawet gdy mają oni 6 run przy sobie, można je także wykuć w kuźni za 60 odłamków.<br /><br />
+                    Runy są przedmiotami o epickiej rzadkości, po rozmianie otrzymujemy z nich 20 odłamków.                
+                </p>
+
+                <h1 id="2">Lista run dostępnych w grze</h1>
+                <hr />
+                <p>Poniżej znajduję się tabelka ze wszystkimi runami dostępnymi w grze.</p>
+                <table>
+                    <tr>
+                        <td style="width: 10%;"><img src="images/runes/lifesteal.png" alt="Najpiękniejsza z run..." /></td>
+                        <td style="width: 90%;">+ 15% kardzieży życia</td>
+                    </tr>
+                    
+                    <tr>
+                        <td style="width: 10%;"><img src="images/runes/damage.png" alt="Najpiękniejsza z run..." /></td>
+                        <td style="width: 90%;">+ 15% do wszystkich zadawanych obrażeń</td>
+                    </tr>
+                    
+                    <tr>
+                        <td style="width: 10%;"><img src="images/runes/reload.png" alt="Najpiękniejsza z run..." /></td>
+                        <td style="width: 90%;">Przeładowanie broni jest 2 razy szybsze</td>
+                    </tr>
+                        
+                    <tr>
+                        <td style="width: 10%;"><img src="images/runes/repair.png" alt="Najpiękniejsza z run..." /></td>
+                        <td style="width: 90%;">Odnawiasz 10 punktów pancerza na sekundę</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="tableOfContents">
+                <h1 style="padding-top: 50px;">Skocz&nbsp;do:</h1>
+                <hr />
+                <div class="spisTreści">
+                    <p>
+                        1. <a href="#1">Czym są runy?</a></br />
+                        2. <a href="#2">Lista run dostępnych w grze</a>
+                    </p>
+                </div>
+            </div>
+            
+            <br style="clear: both;" />
+        </div>
+    
+
+        
+        <!-- Stopka -->
+        <footer>
+            <table style="margin-left: 10%">
+                <tr>
+                    <th>SOCIAL MEDIA</th>
+                    <td style="width: 300px;">|
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://twitter.com/?lang=pl">Twitter</a>
+                        <a href="https://www.youtube.com/">Youtube</a>  
+                    </td>
+                
+                    <th style="width: 150px;">REGULAMIN</th>
+                    <td style="width: 500px;">|
+                        <a href="regulamin.html">Regulamin</a>
+                        <a href="regulamin.html">Warunki użytkowania</a>
+                        <a href="regulamin.html">Ciasteczka</a>
+                    </td>
+                </tr>
+                <tr>
+                <th>KONTAKT</th>
+                    <td>|
+                        <a href="kontakt.html">Napisz do nas</a>
+                    </td>
+                </tr>
+            </table>
+
+            <hr style="margin-top: 20px;" />
+            <p id="credits">Strona wykonan przez Kewina Ignasiaka na aplikacje internetowe (•◡•)/</p>
+        </footer>
+
+
+        <!-- LOSOWANKO -->
+        <script>
+        
+            function Start()
+            {
+        
+                var index = Math.floor(Math.random() * 3) + 1;
+                document.getElementById("banner").src = "images/baner_" + index + ".jpg";
+            }        
+        </script>
+    </body>
+</html>

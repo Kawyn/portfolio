@@ -1,0 +1,254 @@
+   
+            nav{
+                position: fixed;
+                height: 60px; 
+                background-color: #04070d;          
+                width: 100%; 
+                z-index: 10;
+             
+                border-bottom: solid #3d8cff 2px;
+            }
+footer a, footer p {
+    color: #7a819d !important;
+}
+.tableOfContents{
+   float: right; width: 15%; margin-right: 18%; border-left: solid #3d8cff 1px; margin-top: 50px; padding-left: 20px; padding-bottom: 100px;
+}
+#content table, #content td, #content tr, #content th{
+     
+    border-collapse: collapse;
+    padding: 10px;
+}
+            
+a {
+    color: #cbd5d7;
+    text-decoration: none;
+ }
+        h4{
+            font-size: 25px;
+            text-decoration: underline;
+            margin-top: 100px;
+        }
+            h1{
+                font-size: 70px;
+                margin-bottom: 0px;
+            }
+            #content img{
+            
+                width: 100%;
+            }
+            h2{
+                font-size: 30px;
+            }
+            #article{
+                margin: 0% 18%;
+            }
+            #article h1, .sectionTitle, .tableOfContents h1{
+                font-size: 40px;
+                margin-bottom: 0px;
+                margin-top: -5px;
+     
+                padding-top: 30px;
+
+              
+                
+          
+            }    p, li,#content td {
+                font-size: 18px;
+                padding-top: 5px;
+                padding-bottom: 7.5px;
+                color: #cbd5d7;
+            line-height: 32px;
+            }
+            hr{
+
+                width: 150px;
+
+                margin-top: 10px;
+                margin-bottom: 50px;
+
+                border: solid #3d8cff 3px;
+
+                margin-left: 0px;
+            }
+            body {
+                color: whitesmoke;
+                background-color: #142743;
+                font-family: Helvetica, Geneva;
+              margin: 0;
+              padding: 0;
+            }   
+            
+        
+            
+header img{
+                border-bottom: solid #3d8cff 2px;
+                width: 100%;
+                height:  100%;
+                position: relative;
+                }
+
+header h1 {
+    position: absolute; 
+    
+    width: 85%;
+    
+    margin-top: -90px;
+    padding: 7.5px 0px;
+    padding-left: 15%;
+
+    background-color: #04070da0;
+
+    font-size: 60px; 
+}
+         #title{
+          
+             position: absolute;
+             width: 100%; 
+             height: 100vh;
+            background-color:#1e273550;
+            z-index:1;  
+            text-align:center;
+         }
+#logo{
+
+    margin-top: 7%;
+    width: 27.5%;
+    height: auto;
+}
+         #articles{
+             margin-left: 19%;
+             margin-right: 19%;
+             margin-top: 20px;
+             width: 62%;
+             height: 700px;
+         }
+
+#content {  
+    width: 76%;
+
+    margin: 0% 12%;
+    padding-bottom: 50px; 
+
+    background-color: #04070d50;
+}
+        
+
+.article
+         {
+           
+        width: 32.83%;
+        height: 275px;
+        margin-top: 7.5px;
+        margin-right: 0.25%;
+        margin-left: 0.25%;
+         }
+         .article img{
+             width: 100%;
+             height: 100%;
+             border: solid #3d8cff 1px;
+         }
+         .article img:hover {
+            border: solid whitesmoke 1px;
+         }
+      
+         footer{
+            color: #7a819d;
+padding-top: 50px;
+         
+             width: 100%;
+            background-color: #0c101c;
+            padding-bottom: 10px;
+         }
+         #credits{
+        
+            margin-right: 8%;
+            text-align: right;
+            font-size: 11px;
+            padding: 10px;
+
+            margin-top: 10px;
+         }
+         footer hr{
+             border:  solid #232f44 1px;
+             width: 85%;
+             margin: 0% 7.5%;
+         }
+   
+      nav a{
+    
+            margin-top: 30px;
+            vertical-align: middle;
+            font-size: 13px;
+            font-weight: 700;
+            font-family: Arial;
+            color: whitesmoke;
+          
+            padding: 25px;
+            padding-left: 27px;
+            padding-right: 27px;
+         }
+         nav a:hover{
+             background-color:  #142743;
+                    
+             border-bottom: solid #3d8cff 2px;
+         }
+         .article h1{
+            color:whitesmoke; font-size: 18px; position: relative; margin-top: -56px; padding-left: 10px; padding-top: 15px; padding-bottom: 15px;
+            margin-left: 1px;
+        
+            
+            background-color: #04070da0;
+         }
+      #loadMore{
+          text-align: center;
+          margin-bottom: 100px;
+        clear: both;
+     
+      }
+   
+      input, select{
+        background-color:#0c101c;
+        border: solid #3d8cff 1px;
+        color: #3d8cff;   font-size: 17px;
+        font-size: 20px;
+        width: 200px;
+        height: 27px;  color:whitesmoke;     padding-left: 5px;
+      }
+      input[type=button],input[type=submit],input[type=reset]{
+        font-size: 17px;
+          width: 250px;
+          height: 50px;
+       
+      }
+      textarea{
+        background-color:#0c101c;
+        border: solid #3d8cff 1px;
+        color: #3d8cff;   font-size: 17px;
+        font-size: 20px;color:whitesmoke;    
+        resize: none; padding-left: 5px;
+    }
+      input[type=radio], input[type=checkbox]{
+     height: 15px;
+     width: 15px;
+     margin-right: 10px;
+ 
+      }
+      input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover{
+        border: solid whitesmoke 1px;
+        color: whitesmoke;
+      }
+
+      footer td{
+        width: 500px;
+        padding-top: 20px;
+      }
+      footer th
+      {  padding-top: 20px;
+          width: 200px;
+          text-align: left;
+          color: whitesmoke;
+      }
+      footer a{
+          margin-left: 20px;
+      }

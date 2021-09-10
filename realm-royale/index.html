@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Fanowska strona o Realm Royale">
+    <meta name="keywords" content="Realm Royale, wiki" />
+    <meta name="author" content="Kewin Ignasiak" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Realm Royale - wiki</title>
+
+
+    <style>
+        video {
+            position: relative;
+            ;
+            object-fit: cover;
+
+            width: 100%;
+            height: 100vh;
+
+            border-bottom: solid #3d8cff 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Pasek Nawigacji -->
+    <nav><br />
+        <a href="index.html">STRONA GŁÓWNA</a>
+        <a href="artykul.html">PORADNIK</a>
+        <a href="runy.html">RUNY</a>
+        <a href="regulamin.html">REGULAMIN</a>
+        <a href="kontakt.html">KONTAKT</a>
+    </nav>
+
+    <!-- Filmik -->
+    <div>
+        <div id="title">
+            <img src="images/logo.png" alt="Tutaj powinno być logo, ale najwyraźniej go nie ma" id="logo" />
+
+            <h1>Realm Royale Wiki</h1>
+            <h2>Strona od fanów dla fanów</h2>
+        </div>
+        <div>
+            <video autoplay muted loop>
+                <source src="images/theme.mp4" type="video/mp4" />
+                Niestety... ale ta przeglądarka nie obsługuje znaczniaka video :^(
+            </video>
+        </div>
+    </div>
+
+
+    <!-- Artykuły -->
+    <div id="articles">
+        <h1 class="sectionTitle">Wiadomości</h1>
+        <hr />
+
+        <!-- Pierwsza Linia -->
+        <div class="article" style="float: left; width: 66.16%;">
+            <a href="artykul.html">
+                <img src="images/article_1.jpg" alt="Mag biegnący w lesie grzybów" />
+                <h1>Aktualizacja OB22 jest już dostępna!</h1>
+            </a>
+        </div>
+        <div class="article" style="float: right;">
+            <a href="artykul.html">
+                <img src="images/article_2.jpg" alt="Jakiś wojownik z toporem" />
+                <h1>Nowy sezon!</h1>
+            </a>
+        </div>
+
+        <!-- Druga Linia -->
+        <div class="article" style="float: left;">
+            <a href="artykul.html">
+                <img src="images/article_3.jpg" alt="Spadanko!!!" />
+                <h1>Nowe animacja!</h1>
+            </a>
+        </div>
+        <div class="article" style="float: left;">
+            <a href="artykul.html">
+                <img src="images/article_4.jpg" alt="Co to w ogóle jest xDDDD" />
+                <h1>Nerf miecza?</h1>
+            </a>
+        </div>
+        <div class="article" style="float: right;">
+            <a href="artykul.html">
+                <img src="images/article_5.jpg" alt="Melancholijny mag..." />
+                <h1>Jaką drogę obrać?</h1>
+            </a>
+        </div>
+    </div>
+
+    <!-- Ten przycisk z napisem więcej wiadomości-->
+    <div id="loadMore" style="margin-top: 100px;">
+        <input type="button" value="Więcej wiadomości" onclick="alert('Niestety nie ma już wiecej wiadomośći :^(')" />
+    </div>
+
+    <!-- Stopka -->
+    <footer>
+        <table style="margin-left: 10%">
+            <tr>
+                <th>SOCIAL MEDIA</th>
+                <td style="width: 300px;">|
+                    <a href="https://www.facebook.com/">Facebook</a>
+                    <a href="https://twitter.com/?lang=pl">Twitter</a>
+                    <a href="https://www.youtube.com/">Youtube</a>
+                </td>
+
+                <th style="width: 150px;">REGULAMIN</th>
+                <td style="width: 500px;">|
+                    <a href="regulamin.html">Regulamin</a>
+                    <a href="regulamin.html">Warunki użytkowania</a>
+                    <a href="regulamin.html">Ciasteczka</a>
+                </td>
+            </tr>
+            <tr>
+                <th>KONTAKT</th>
+                <td>|
+                    <a href="kontakt.html">Napisz do nas</a>
+                </td>
+            </tr>
+        </table>
+
+        <hr style="margin-top: 20px;" />
+        <p id="credits">Strona wykonan przez Kewina Ignasiaka na aplikacje internetowe (•◡•)/</h1>
+    </footer>
+</body>
+
+</html>

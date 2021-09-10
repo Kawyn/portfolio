@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Fanowska strona o Realm Royale">
+        <meta name="keywords" content="Realm Royale, wiki" />
+        <meta name="author" content="Kewin Ignasiak" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <title>Kontakt</title>
+    </head>
+    <body onload="Start();">
+
+        <!-- Pasek Nawigacji -->
+        <nav><br />
+            <a href="index.html">STRONA GŁÓWNA</a>
+            <a href="artykul.html">PORADNIK</a>
+            <a href="runy.html">RUNY</a>
+            <a href="regulamin.html">REGULAMIN</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </nav>
+
+        <!-- Baner -->        
+        <header>
+            <img src="" alt="Losowy baner..." id="banner" />
+            <h1>Napisz do nas!</h1>
+        </header>
+       
+
+        <!-- Artykuł -->
+        <div id="content">
+            <div id="article">
+                <h1 style="padding-top: 100px;">Przedstaw nam się :D</h1>
+                <hr />
+                
+                <!-- FORMULARZ -->
+                <form action="mailto:xkoniczynkad@gmail.com" method="POST"> 
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="width: 20%;">Imię:</td>
+                            <td style="width: 80%;"><input type="text" name="imię" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Nazwisko:</td>
+                            <td><input type="text" name="nazwisko"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Nick:</td>
+                            <td><input type="text" name="nick"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Data urodzenia:</td>
+                            <td><input type="date" name="dataUrodzenia"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Płeć:</td>
+                            <td><input type="radio" name="płeć" value="kobieta">Kobieta</td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td><input type="radio" name="płeć" value="mężczyzna">Mężczyzna</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Powód kontaktu:</td>
+                            <td>
+                                <select name="powódKontaktu" required>
+                                    <option>Wykrycie błędu</option>
+                                    <option>Pomysł</option>
+                                    <option>Zarzalenie</option>
+                                    <option selected>Inne</option>
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Zainteresowania:</td>
+                            <td><input type="checkbox" name="zainteresowania" value="muzyka">Muzya</td>
+                        </tr> 
+                        
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="zainteresowania" value="html">HTML</td>
+                        </tr>    
+                        
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="zainteresowania" value="sport">Sport</td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="zainteresowania" value="ogrodnictwo">Ogrodnictwo</td>
+                        </tr> 
+                        
+                        <tr>
+                            <td style="vertical-align: top;">Wiadomość:</td>
+                            <td><textarea name="treść"  style="width: 99%; height:200px" required></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" style="width: 100%;"><input type="reset" style="width: 100%; margin-top: 10px;"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- Stopka -->
+        <footer>
+            <table style="margin-left: 10%">
+                <tr>
+                    <th>SOCIAL MEDIA</th>
+                    <td style="width: 300px;">|
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://twitter.com/?lang=pl">Twitter</a>
+                        <a href="https://www.youtube.com/">Youtube</a>  
+                    </td>
+                
+                    <th style="width: 150px;">REGULAMIN</th>
+                    <td style="width: 500px;">|
+                        <a href="regulamin.html">Regulamin</a>
+                        <a href="regulamin.html">Warunki użytkowania</a>
+                        <a href="regulamin.html">Ciasteczka</a>
+                    </td>
+                </tr>
+                <tr>
+                <th>KONTAKT</th>
+                    <td>|
+                        <a href="kontaktm.html">Napisz do nas</a>
+                    </td>
+                </tr>
+            </table>
+
+            <hr style="margin-top: 20px;" />
+            <p id="credits">Strona wykonan przez Kewina Ignasiaka na aplikacje internetowe (•◡•)/</p>
+        </footer>
+
+        <!-- LOSOWANKO -->
+        <script>
+        
+                function Start()
+                {
+        
+                    var index = Math.floor(Math.random() * 3) + 1;
+                    document.getElementById("banner").src = "images/baner_" + index + ".jpg";
+                }        
+        </script>
+    </body>
+</html>

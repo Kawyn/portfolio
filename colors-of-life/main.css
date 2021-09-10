@@ -1,0 +1,80 @@
+* {
+  overflow: hidden;
+  background-color: #191919;
+  color: white;
+  font-weight: 900;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+canvas {
+  cursor: pointer;
+}
+
+.rainbow {
+  background-image: -webkit-gradient(linear, left top, right top, from(#00C0FF), color-stop(#FFCF00), to(#FC4F4F));
+  background-image: linear-gradient(90deg, #00C0FF, #FFCF00, #FC4F4F);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+#buttons {
+  margin: auto;
+  width: 30%;
+}
+
+.button {
+  margin: 5% 0%;
+  text-align: center;
+  width: 45%;
+  padding: 3px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 7px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00C0FF), color-stop(#FFCF00), to(#FC4F4F));
+  background-image: linear-gradient(90deg, #00C0FF, #FFCF00, #FC4F4F);
+}
+
+.button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#FC4F4F), color-stop(49%, #00C0FF), to(#FFCF00));
+  background-image: linear-gradient(90deg, #FC4F4F 0%, #00C0FF 49%, #FFCF00 100%);
+}
+
+.button div {
+  font-size: 1.5em;
+  padding: 10%;
+  border-radius: 7px;
+}
+
+hr {
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00C0FF), color-stop(49%, #FFCF00), to(#FC4F4F));
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  width: 90%;
+  height: 1px;
+}
+
+p {
+  position: absolute;
+  bottom: 2%;
+  font-style: italic;
+  width: 15%;
+  float: right;
+  font-size: 0.8em;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00C0FF), color-stop(#FFCF00), to(#FC4F4F));
+  background-image: linear-gradient(90deg, #00C0FF, #FFCF00, #FC4F4F);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
